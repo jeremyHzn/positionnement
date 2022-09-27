@@ -1,0 +1,164 @@
+h1{
+    text-align: center;
+}
+h2{
+    margin-bottom: 10px;
+}
+section{
+    margin: auto;
+    margin-bottom: 50px;
+    width: 30%;
+}
+
+div{
+    margin: auto;
+    padding: 20px;
+}
+
+.vert{
+    background-color:yellowgreen;
+}
+
+.bleu{
+    background-color: royalblue;
+}
+
+.tomate{
+    background-color: tomato;    
+}
+
+.ciel{
+    background-color: skyblue;
+}
+.jaune{
+    background-color: yellow;
+}
+/* relative */
+#re_vert{
+    position: relative;
+    right: 20px;
+}
+
+#re_bleu{
+    position: relative;
+    left: 70px;
+}
+
+#re_tomate{
+    position: relative;
+    right: 120px;
+}
+
+/* absolue */
+
+#ab_tomate{
+    position: absolute;
+    top: 720px;
+    left: 45%;
+}
+
+/* absolue 2 */
+
+#abs_ciel{
+    position: absolute;
+    top: 810px;
+    width: 370px;
+}
+
+#abs_vert{
+    width: 70px;
+}
+
+#abs_tomate{
+    position: absolute;
+    top: 900px;
+    left: 55%;
+}
+
+/* absolue et relative */
+#abre_ciel{
+    height: 400px;
+}
+
+#abre_vert{
+    position: absolute;
+    width: 10%;
+    height: 15%;
+}
+
+#abre_bleu{
+    position: absolute;
+    left: 960px;
+    width: 10%;
+    height: 15%;
+}
+
+#abre_tomate{
+    position: absolute;
+    top:1300px;
+    width: 10%;
+    height: 15%;
+}
+#abre_jaune{
+    position: absolute;
+    top: 1300px;
+    left: 960px;
+    width: 10%;
+    height: 15%;
+}
+
+/*relative*/
+
+#abreRE_vert{
+    box-sizing: content-box;
+    position: relative;
+    height: 35%;
+    width: 35%;
+    right: 130px;
+}
+
+#abreRE_bleu{
+    box-sizing: content-box;
+    position: relative;
+    height: 35%;
+    width: 35%;
+    bottom: 180px;
+    left: 130px;
+}
+
+#abreRE_tomate{
+    box-sizing: content-box;
+    position: relative;
+    height: 35%;
+    width: 35%;
+    right: 130px;
+    bottom: 150px;
+}
+#abreRE_jaune{
+    box-sizing: content-box;
+    position: relative;
+    height: 35%;
+    width: 35%;
+    left: 130px;
+    bottom: 330px;
+}
+
+
+/* z-index */
+
+#z_vert{
+    position: absolute;
+    right: 1150px;
+    height: 150px;
+    width: 150px;
+    z-index: 1;
+}
+#z_jaune{
+
+    position: relative;
+    height: 35%;
+    width: 35%;
+    left: 130px;
+    bottom: 0px;
+    z-index: 2;
+}

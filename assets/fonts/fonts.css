@@ -1,0 +1,39 @@
+/* créer une police qui a été téléchargée */
+@font-face{
+    font-family: "rampage";
+    src: url(../fonts/RampartOne-Regular.ttf);
+}
+h1{
+    font-size:80px;
+    font-style: unset;
+    font-family: "rampage";
+    color: black;
+}
+p{
+    width: 400px;
+    text-align: justify;
+    text-indent: 15px;
+}
+p::first-letter{
+    font-size: 40px;
+    font-family: "rampage";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
