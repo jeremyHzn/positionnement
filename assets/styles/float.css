@@ -1,0 +1,37 @@
+main{
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    padding: 50px;
+}
+#vert{
+    background-color: green;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+#bleu{
+    background-color: blue;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+#tomate{
+    background-color: red;
+    float:left;
+    width: 400px;
+    height: 100px;
+}
+
+#gris{
+    background-color: grey;
+    float:right;
+    width: 100px;
+    height: 100px;
+}
+#jaune{
+    background-color: yellow;
+    float: right ;
+    width: 100px;
+    height: 100px;
+}

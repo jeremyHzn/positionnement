@@ -1,0 +1,47 @@
+div{
+    border: 2px solid black;
+}
+#ciel{
+    background-color: skyblue;
+    width: 300px;
+    height: 300px;
+}
+
+#vert{
+    position: relative;
+    background-color: rgba(0, 128, 0,0.5);
+    width: 100px;
+    height: 100px;
+    left: 20px;
+    top: 20px;
+    z-index: 4;
+}
+
+#bleu{
+    position: relative;
+    background-color: rgba(0, 0, 255, 0.5);
+    width: 100px;
+    height: 100px;
+    bottom: 50px;
+    left: 50px;
+    z-index: 3;
+}
+
+#tomate{
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+    bottom: 85px;
+    left: 123px;
+    z-index: 2;
+}
+#jaune{
+    position: relative;
+    background-color: rgb(255, 255, 0);
+    width: 100px;
+    height: 100px;
+    bottom: 120px;
+    left: 180px;
+    z-index: 1;
+}
